@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/usrg-asus/catkin_ws/src/3_object_detection/src/object_detection",
+        "/home/usrg-asus/catkin_ws/src/3_object_detection/src/slim"
+    ],
+    "files.associations": {
+        "dense": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
+}

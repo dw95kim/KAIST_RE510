@@ -1,0 +1,14 @@
+net: "/opt/caffe/models/bvlc_reference_caffenet/train_val_bn.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+max_iter: 450000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/opt/caffe/models/bvlc_reference_caffenet/200520_model_bn"
+solver_mode: GPU
